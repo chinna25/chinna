@@ -1,0 +1,24 @@
+           <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting" parallel="tests" thread-count="3">
+		  <test name="Groups">
+			<parameter name="browser" value="Firefox"></parameter>
+	          <packages>
+	          <package name="TestNG1"></package>
+	          </packages>	
+	      </test>
+	      <test name="Groups">
+	      	<parameter name="browser" value="Chrome"></parameter>
+			
+	          <packages>
+	          <package name="TestNG1"></package>
+	          </packages>	
+	      </test>
+	      <test name="Groups">
+	      	<parameter name="browser" value="ie"></parameter>
+			
+	          <packages>
+	          <package name="TestNG1"></package>
+	          </packages>	
+	      </test>
+           </suite>
+           

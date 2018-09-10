@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting">
+<test name="Groups">
+<parameter name="Browser" value="Firefox"></parameter>
+<parameter name="Waittime" value="10"></parameter>
+	          <classes>
+		  <class name="TestNG1.ParametersEx1"></class>
+	          </classes>	
+	      </test>
+           </suite>

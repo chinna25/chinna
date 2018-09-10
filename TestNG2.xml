@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupsTesting">
+<listeners>
+<listener class-name="TestNG1.Listener"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+</listeners>
+
+<test name="Groups">
+	          <classes>
+		  <class name="TestNG1.TestAnnotationEx1"></class>
+	          </classes>	
+	      </test>
+</suite>
